@@ -6,7 +6,7 @@
     background-color: rgba(0, 0, 0,0.2);
 }
 body{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../IMG/netlix.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(netlix.jpg) no-repeat;
 }
 .sign_in {
     text-align: center;
