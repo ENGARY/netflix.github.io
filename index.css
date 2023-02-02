@@ -1,0 +1,144 @@
+.logo {
+    width: 250px;
+    position:relative;
+    bottom: 35px;
+    right: 25px;
+    background-color: rgba(0, 0, 0,0.2);
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../IMG/netlix.jpg) no-repeat;
+}
+.sign_in {
+    text-align: center;
+    padding: 30px;
+    border: solid rgba(0, 0, 0,0.6);
+    margin-left: 380px;
+    margin-right: 380px;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+
+}
+.h1 {
+   position: relative;
+   right: 100px;
+   color: white;
+   font-size: 250%;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight: 600;
+}  
+.input{
+    border-radius: 5px ;
+    font-size: 125%;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(38, 38, 38);
+    border: solid rgb(38, 38, 38) ;
+    margin: 10px;
+    color: white;  
+    width: 44%;
+}
+.output {
+    background-color: red;
+    border-radius: 5px ;
+    font-size: 125%;
+    padding: 10px;
+    margin: 5px;
+    border: solid rgb(38, 38, 38) ;
+    margin: 10px;
+    color: white;  
+    width: 48%;
+}
+.output:hover{
+    cursor: pointer;
+}
+.remember{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right: 100px;
+}
+.check:hover{
+    width: 5%;
+}
+.help {
+    color: white;
+    position: relative;
+    right: 120px;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-decoration: none;
+}
+.help:hover{
+    text-decoration: underline;
+}
+.sign_up{
+    color: rgb(255, 254, 254);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right: 55px;
+    font-weight: 600;
+}
+.link{
+    text-decoration: none;
+    color: rgb(144, 144, 144);
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:800px) {
+    .sign_in {
+        text-align: center;
+        padding: 30px;
+        border: solid rgba(0, 0, 0,0.6);
+        margin-left: 100px;
+        margin-right: 100px;
+        background-color: rgba(0, 0, 0, 0.6);
+    }  
+    .input{
+        border-radius: 5px ;
+        font-size: 125%;
+        padding: 10px;
+        margin: 5px;
+        background-color: rgb(38, 38, 38);
+        border: solid rgb(38, 38, 38) ;
+        margin: 10px;
+        color: white;  
+        width: 75%;
+    }
+    .output {
+        background-color: red;
+        border-radius: 5px ;
+        font-size: 125%;
+        padding: 10px;
+        margin: 5px;
+        border: solid rgb(38, 38, 38) ;
+        margin: 10px;
+        color: white;  
+        width: 75%;
+        width: 82%;
+    }
+    .output:hover{
+        cursor: pointer;
+    } 
+    .remember{
+        position: relative;
+        right: 130px;
+    } 
+    .help{
+        position: relative;
+        right: 150px;
+    } 
+    .sign_up{
+        position: relative;
+        right: 80px;
+    }
+}
+    
+    
+
+
+
+
+
+
+
